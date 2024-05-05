@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6B6C4"
+    android:orientation="vertical"
+    tools:context=".PlayActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        app:srcCompat="@drawable/my_pet_pig_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        app:srcCompat="@drawable/playing_peppa" />
+
+    <TextView
+        android:id="@+id/tvNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed" />
+
+    <TextView
+        android:id="@+id/tvFPoints"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <Button
+        android:id="@+id/btnWash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wash" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <TextView
+        android:id="@+id/tvPPoints"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+</LinearLayout>
